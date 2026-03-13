@@ -380,16 +380,21 @@ footer a {
         transition: .4s;
     }
 
+    .view-works-link:hover {
+        background: #777;
+        color: #fff;
+        border-radius: 50px;
+        box-shadow: none;
+    }
+
 }
 
-.view-works-link:hover {
+.view-works-link:focus {
     background: #777;
     color: #fff;
     border-radius: 50px;
     box-shadow: none;
 }
-
-
 
 /* skills */
 
