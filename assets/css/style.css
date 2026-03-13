@@ -369,11 +369,12 @@ footer a {
 
 .skill_type {
     background: #f7f7f7;
-    margin: 0 auto;
-    margin-bottom: 3em;
-    text-align: center;
+    margin: 0 auto 3em auto;
     padding: 20px 0;
     width: 90%;
+    height: auto;
+    align-items: stretch;
+    text-align: center;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .20);
 }
 
@@ -383,7 +384,14 @@ footer a {
     font-weight: 900;
 }
 
-.skill_list {
+.skill-paragraph {
+    text-align: center;
+    margin: 0 auto 1em auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.skill_set {
     display: inline-flex;
     flex-direction: column;
     margin: 0 auto;
@@ -1153,7 +1161,7 @@ textarea {
         box-shadow: 0 8px 20px rgba(0, 0, 0, .14);
     }
 
-    .skill_type-span {
+    .skill_type-title {
         text-align: center;
         margin: 10px auto 20px auto;
         font-size: 30px;
