@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kohei Yoshidaのポートフォリオサイト。過去にいただいた動画の作品実績を掲載しています。">
+    <title>Works Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        window.addEventListener("load", () => {
+            document.body.classList.remove("fade");
+        })
+    </script>
+</head>
+
+<body class="fade">
+    <header class="header">
+        <a href="about.html" class="head_link"><img src="assets/images/Logo_folio.svg" alt="site-logo"
+                class="svg_logo"></a>
+        <nav class="nav">
+            <input type="checkbox" id="nav_toggle" class="nav_toggle">
+            <label for="nav_toggle" class="nav_btn" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </label>
+            <label for="nav_toggle" class="nav_overlay"></label>
+
+            <ul class="nav_list">
+                <li class="list_item"><a href="about.html" class="link_item">ABOUT</a></li>
+                <li class="list_item"><a href="works.html" class="link_item">WORKS</a></li>
+                <li class="list_item"><a href="contact.html" class="link_item">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <!-- 今いるページ -->
+        <div class="page">
+            <a href="about.html" class="page_link">ABOUT</a>
+            &gt;
+            <span class="page_current">WORKS</span>
+        </div>
+        <!-- /今いるページ -->
+        <p class="works_character">
+            Proposal-based Project,<br>
+            currently in use
+        </p>
+        <section class="work_desc">
+            <div class="video_section card">
+                <div class="video_title">ヴァンパイア | 歌ってみたMV</div>
+                <div class="video_box">
+                    <iframe src="https://www.youtube.com/embed/J4fNj-Rvtk8" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="explanation">
+                    初めて動画制作の依頼をいただいた作品です。<br>
+                </p>
+                <dl class="pr_li">
+                    <dt class="pr_li-item">担当</dt>
+                    <dd class="pr_li-item">モーショングラフィックス / 動画編集</dd>
+                    <dt class="pr_li-item">担当範囲</dt>
+                    <dd class="pr_li-item">
+                        ・タイポグラフィアニメーション<br>
+                        ・タイミング調整<br>
+                    </dd>
+                    <dt class="pr_li-item">プロジェクト種別</dt>
+                    <dd class="pr_li-item">
+                        クライアントワーク (MV制作)
+                    </dd>
+                </dl>
+            </div>
+            <div class="video_section card">
+                <div class="video_title">VLOGトランジション</div>
+                <div class="video_box">
+                    <video src="assets/video/VLOG_introduction.mp4" class="vlog" controls muted></video>
+                    <img src="assets/images/vlog_thumbnail-typeC.png" alt="vlog_thumbnail" class="video-thumb">
+                </div>
+                <p class="explanation">
+                    夜菽様からのご依頼でシーンチェンジを用意してほしいとの要望があり制作しました。<br>
+                    動画自体はトランジションということで
+                </p>
+                <dl class="pr_li">
+                    <dt class="pr_li-item">担当</dt>
+                    <dd class="pr_li-item">モーショングラフィックス / 動画編集</dd>
+                </dl>
+            </div>
+            <div class="video_section card">
+                <div class="video_title">配信エンドカード</div>
+                <div class="video_box">
+                    <video src="assets/video/yamame_stream-endhing.mp4" class="st_ed" controls muted></video>
+                    <img src="assets/images/yamame_ending-thumbnail-refactor.png" alt="stream-ending-thumbnail" class="video-thumb">
+                </div>
+                <p class="explanation">
+                    夜菽様
+                </p>
+                <dl class="pr_li">
+                    <dt class="pr_li-item">担当</dt>
+                    <dd class="pr_li-item">モーショングラフィックス / 動画編集</dd>
+                </dl>
+            </div>
+        </section>
+        <section class="summary">
+            <h1 class="summary-title">
+                Project Summary
+            </h1>
+            <div class="summary-grid">
+                <div class="summary-box card">
+                    <h2 class="summary-sub-title">Video Production Landing Page</h2>
+                    <img src="assets/images/lp-site.png" alt="lp-site-image" class="summary-img">
+                    <a href="lp-flow-practice/index.html" class="lp-link">サイトを見る</a>
+                    <div class="summary-txt-wrap">
+                        <span class="summary-label">制作意図</span>
+                        <p class="summary-txt">
+                            動画制作サービスを想定したLPを制作。<br>
+                            Problem → Solution → Strength → Flow → FAQ → CTA<br>
+                            の構成でユーザー導線を設計しました。
+                        </p>
+                        <span class="summary-label">使用言語</span>
+                        <p class="summary-txt">HTML / CSS /JavaScript</p>
+                        <span class="summary-label">制作時間</span>
+                        <p class="summary-txt">約:50時間</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+    <footer class="footer">
+        <a href="about.html" class="foot_link"><img src="assets/images/Logo_folio.svg" alt="site-logo"
+                class="foot_logo"></a>
+        <div class="footer_nav">
+            <span class="site_map">SITE MAP</span>
+            <nav>
+                <ul class="foot_list">
+                    <li class="foot_item"><a href="about.html" class="foot_link">ABOUT</a></li>
+                    <li class="foot_item"><a href="works.html" class="foot_link">WORKS</a></li>
+                    <li class="foot_item"><a href="contact.html" class="foot_link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <span class="copy">&copy;2026- Kohei Yoshida</span>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
