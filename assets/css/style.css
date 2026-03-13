@@ -1441,8 +1441,7 @@ textarea {
         margin-right: 3em;
     }
 
-    #about-page .footer,
-    #index-page .footer {
+    #about-page .footer {
         flex-direction: row-reverse;
     }
 
